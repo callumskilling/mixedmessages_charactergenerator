@@ -12,6 +12,17 @@ body {
     color: aliceblue;
 }
 
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+p.display-result {
+    justify-self: center;
+    font-size: 1.5rem;
+}
+
 ul {
     display: flex;
     justify-content: space-between;
@@ -24,4 +35,34 @@ li {
     text-align: center;
     background-color: dodgerblue;
     border-radius: 3rem;
+    margin: 2.5%;
+    cursor: pointer;    
+}
+
+li:hover {
+    position: relative;
+    background-color: rgb(45, 133, 220);
+}
+li:active {
+    position: relative;
+    background-color: rgb(38, 117, 197);
+    top: 2px;
+}
+
+#fairy-name {
+    color: rgb(255, 185, 255);
+}
+#hippy-name {
+    color: rgb(223, 203, 155);
+}
+#wrestler-name {
+    color: rgb(253, 129, 129);
+    font-weight: bold;
+}
+#rapper-name {
+    color: rgb(235, 233, 116);
+}
+#underline {
+    text-decoration: 2px wavy dodgerblue underline;
+    
 }
